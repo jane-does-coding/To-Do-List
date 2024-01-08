@@ -18,7 +18,11 @@
 .todo-app {
   width: 100%;
   max-width: 540px;
-  background-color: white;
+
+  background: #ffffff;
+  background-image: radial-gradient(#bebebe 7.2%, transparent 0);
+  background-size: 25px 25px;
+
   padding: 2rem 3rem;
   border-radius: 0.75rem;
   box-shadow: 4px 3px 7px 2px #00000040;
@@ -45,9 +49,10 @@ input {
   padding: 0.5rem 0.25rem;
   font-size: 1.25rem;
   border: none;
-  border-bottom: 3px dashed #fdcb6e;
+  border-bottom: 4px dashed #fdcb6e;
   width: 100%;
   outline: none;
+  background-color: transparent;
 }
 
 button {
@@ -58,7 +63,44 @@ button {
   margin-left: 0.5rem;
   font-size: 1rem;
   border: 2px solid black;
-  background-color: transparent;
+  background-color: white;
   cursor: pointer;
   font-weight: 600;
+}
+
+ul {
+  margin: 2rem 0;
+  padding-left: 2.5rem;
+}
+
+ul li {
+  margin: 1.75rem 0;
+  padding-left: 1rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  list-style: none;
+  position: relative;
+  cursor: pointer;
+}
+
+ul li::before {
+  content: "";
+  position: absolute;
+  height: 1.75rem;
+  width: 1.75rem;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  top: -0.25rem;
+  left: -2.5rem;
+  background-image: url("/img/unchecked.png");
+}
+
+.checked {
+  color: #8e8e8e;
+  text-decoration: line-through;
+}
+
+.checked::before {
+  background-image: url("/img/checked.png");
 }
