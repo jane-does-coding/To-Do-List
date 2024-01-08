@@ -5,6 +5,27 @@
   box-sizing: border-box;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #d7c790;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(76, 76, 76);
+  border-radius: 1rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #313131;
+}
+
 .container {
   width: 100%;
   min-height: 100vh;
@@ -108,7 +129,7 @@ ul li::before {
 li span {
   position: absolute;
   right: 0;
-  top: -0.1rem;
+  top: -0.2rem;
   font-size: 1.75rem;
   cursor: pointer;
   padding: 0.15rem 0.65rem;
