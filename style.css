@@ -114,7 +114,7 @@ ul li::before {
   background-position: center;
   top: -0.1rem;
   left: -2.5rem;
-  background-image: url("/img/unchecked.png");
+  background-image: url("./img/unchecked.png");
 }
 
 .checked {
@@ -123,7 +123,7 @@ ul li::before {
 }
 
 .checked::before {
-  background-image: url("/img/checked.png");
+  background-image: url("./img/checked.png");
 }
 
 li span {
