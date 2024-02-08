@@ -1,6 +1,6 @@
 # Unbeatable Tic Tac Toe Game
 
-<img width="700" alt="todo-list" src="https://github.com/YevheniiaSimaka/To-Do-List/assets/112284703/6df7615a-d148-4d00-a442-3cc2d5c9295b">
+<img width="960" alt="todo-list" src="https://github.com/YevheniiaSimaka/To-Do-List/assets/112284703/6df7615a-d148-4d00-a442-3cc2d5c9295b">
 
 ## Fun AI for playing tic tac toe!
 
